@@ -43,7 +43,7 @@
   // some protection for text-only site titles
   .title {
     grid-area: logo;
-    @if ($mobile_center_logo == "true") {
+    @if ($desktop_center_logo == "true") {
       margin: 0 auto;
     }
     max-width: unset;

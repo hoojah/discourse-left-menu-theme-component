@@ -1,4 +1,9 @@
-center_logo:
+desktop_center_logo:
   type: bool
   default: false
-  description: 'centers the logo on mobile'
+  description: 'Centers the logo on desktop'
+
+mobile_center_logo:
+  type: bool
+  default: false
+  description: 'Centers the logo on mobile'
